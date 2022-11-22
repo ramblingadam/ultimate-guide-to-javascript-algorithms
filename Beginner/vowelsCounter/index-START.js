@@ -5,8 +5,15 @@ e.g vowelsCounter('anehizxcv') // will return 3
 
 
 function vowelsCounter(text) {
-    // Code goes here
+    const vowels = 'aeiouAEIOU'
+    let result = 0
+    for(let char of text) {
+        if(vowels.includes(char)) result += 1
+    }
+    return result
 }
+
+
 
 
 
