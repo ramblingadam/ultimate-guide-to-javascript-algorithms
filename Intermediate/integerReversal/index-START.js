@@ -20,7 +20,7 @@
 // for loop counting down
 
 function integerReversal(int) {
-  let str = int.toString()
+  const str = int.toString()
   let result = ''
   if(str[0] === '-') {
     result += '-'
