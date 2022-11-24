@@ -9,7 +9,7 @@
 
 // for loop i at first, ends at 2nd
 
-// function rangeSum(range) {
+// function rangeSum1(range) {
 //   let sum = 0
 
 //   range.sort((a,b) => a - b)
@@ -23,7 +23,7 @@
 
 // fill array out then reduce
 
-// function rangeSum(range) {
+// function rangeSum2(range) {
 //   let filled = [...range.sort()]
 //   for(let i = range[0] + 1; i < range[1]; i++) {
 //     filled.push(i)
